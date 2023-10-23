@@ -5,6 +5,9 @@
 - 💞️ I’m looking to collaborate on any place where I can kickstar my programming carrer! I really like Audio softwares, Videogames and Logistics. 
 - 📫 How to reach me: alfonsomassaguer@gmail.com
 
+
+
+
               .........................................................................             
               .........................................................................             
               .........................................................................             
@@ -32,7 +35,9 @@
                          ....................................................                       
                          ..................................................    
 
-                         
+
+
+
 
 <!---
 Alfonso-wav/Alfonso-wav is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
