@@ -5,7 +5,8 @@
 - 💞️ I’m looking to collaborate on any place where I can kickstar my programming carrer! I really like Audio softwares, Videogames and Logistics. 
 - 📫 How to reach me: alfonsomassaguer@gmail.com
 
-![velocidad-transversal-de-una-onda-sonora-ejemplo-de-ondas-y-tipos](https://github.com/Alfonso-wav/Alfonso-wav/assets/138866994/593f1e55-1783-411a-a566-4f615090f627)
+![banner git](https://github.com/Alfonso-wav/Alfonso-wav/assets/138866994/5588b031-d0ec-4dd2-b506-aac3a6d0d9f8)
+
 
 
 
