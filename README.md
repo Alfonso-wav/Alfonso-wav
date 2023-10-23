@@ -1,12 +1,10 @@
-A U D I O | G E E K    
-〜〜〜〜〜〜〜〜〜〜〜〜
-...  data science 
-& machine learning  ...
-〜〜〜〜〜〜〜〜〜〜〜〜
+                    A U D I O | G E E K    
+...  data science             &         machine learning  ...
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
 
 ![banner git](https://github.com/Alfonso-wav/Alfonso-wav/assets/138866994/5588b031-d0ec-4dd2-b506-aac3a6d0d9f8)
 
-〜〜〜〜〜〜〜〜〜〜〜〜
+〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜
 
 
 
