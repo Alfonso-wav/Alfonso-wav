@@ -15,7 +15,7 @@
 
 <br>
 
-> **Datero from Madrid 🇪🇸 — turning raw data into signal, one pipeline at a time.**
+> **Datero from Spain 🇪🇸 — turning raw data into signal, one pipeline at a time.**
 
 </div>
 
