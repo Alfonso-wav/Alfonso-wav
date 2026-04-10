@@ -15,7 +15,7 @@
 
 <br>
 
-> **Datero from Spain 🇪🇸 — turning raw data into signal, one pipeline at a time.**
+> **Datero from Spain — turning raw data into signal, one pipeline at a time.**
 
 </div>
 
@@ -28,18 +28,18 @@ package main
 
 import "fmt"
 
-type DataEngineer struct {
+type Datero struct {
     Name      string
     Location  string
     Focus     []string
     Interests []string
-    Motto     string
+    holaa     string
 }
 
 func main() {
-    alfonso := DataEngineer{
+    alfonso := Datero{
         Name:     "Alfonso Massaguer",
-        Location: "Madrid, Spain",
+        Location: "Internet",
         Focus: []string{
             "Data Science",
             "Machine Learning",
@@ -48,11 +48,11 @@ func main() {
             "Automation & Testing",
         },
         Interests: []string{
-            "🎧 Audio & Sound Processing",
-            "🎮 Videogames & Game Dev",
-            "🌱 Sustainability & Green Tech",
+            "Audio & Sound Processing",
+            "Videogames & Game Dev",
+            "Sustainability & Green Tech",
         },
-        Motto: "Data is everywhere. Let's make it useful.",
+        holaa: "Data is everywhere. Let's make it useful.",
     }
     fmt.Println(alfonso)
 }
@@ -102,7 +102,7 @@ func main() {
 ```
 
 **I'm open to collaborations** on projects where data meets any of these worlds.  
-Got something interesting? Let's talk. 👇
+Let's talk. 
 
 ---
 
