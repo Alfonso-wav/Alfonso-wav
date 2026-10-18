@@ -13,7 +13,14 @@ datasets académicos abiertos (MANTO, Pleiades, ToposText). Cada afirmación lle
 Perseus, y cuando dos fuentes sitúan el mismo hecho en sitios distintos se guardan las dos. La web
 mueve el mapa generación a generación: en la +2 queda aislada la guerra de Troya.
 
-[Abrir el mapa](https://alfonso-wav.github.io/greek_myth_map/) · [Código](https://github.com/Alfonso-wav/greek_myth_map) · Python, SQLite, Leaflet
+[![Vista de relaciones de Periégesis centrada en Heracles](assets/greek_myth_relaciones.png)](https://alfonso-wav.github.io/greek_myth_map/#v=red)
+
+La vista de relaciones pone una figura en el centro y la rodea de todas aquellas con las que la
+relacionan las fuentes: progenitores, parejas, descendencia, víctimas. Cada línea resume cuántas
+fuentes lo afirman, y en rojo van las que se contradicen sobre quién es el padre o quién mató a
+quién.
+
+[Abrir el mapa](https://alfonso-wav.github.io/greek_myth_map/) · [Ver las relaciones](https://alfonso-wav.github.io/greek_myth_map/#v=red) · [Código](https://github.com/Alfonso-wav/greek_myth_map) · Python, SQLite, Leaflet
 
 ## Apps para aprender
 
