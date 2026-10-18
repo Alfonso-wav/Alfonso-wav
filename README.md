@@ -1,142 +1,61 @@
-<div align="center">
+# Alfonso Massaguer
 
-# 🐊 Alfonso Massaguer
+Datero en Madrid. Saco datos de donde estén (APIs, webs, datasets académicos), los meto en una base
+de datos y les pongo encima una interfaz que se entienda. Últimamente, sobre todo, herramientas
+para aprender cosas: mitología, ruso, dibujo, ganchillo.
 
-### `ALL THINGS DATA`
+## Periégesis — el mito griego, lugar por lugar
 
-<br>
+[![Mapa de Periégesis en la generación de la Guerra de Troya](assets/greek_myth_map.png)](https://alfonso-wav.github.io/greek_myth_map/)
 
-<!-- Golang Gopher animated -->
-(ツ)(ツ)![Golang Gopher](https://raw.githubusercontent.com/egonelbre/gophers/master/animation/2bit-hierarchical.gif)(ツ)(ツ)
+~9.000 entidades y ~32.000 relaciones de la mitología griega en SQLite, construidas a partir de
+datasets académicos abiertos (MANTO, Pleiades, ToposText). Cada afirmación lleva su cita enlazada a
+Perseus, y cuando dos fuentes sitúan el mismo hecho en sitios distintos se guardan las dos. La web
+mueve el mapa generación a generación: en la +2 queda aislada la guerra de Troya.
 
-<br>
+[Abrir el mapa](https://alfonso-wav.github.io/greek_myth_map/) · [Código](https://github.com/Alfonso-wav/greek_myth_map) · Python, SQLite, Leaflet
 
-![Mario](https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif)
+## Apps para aprender
 
-<br>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-> **Datero from Spain — turning raw data into signal, one pipeline at a time.**
+[![Ruso diario](assets/ruso-diario.png)](https://alfonso-wav.github.io/ruso-diario/)
 
-</div>
+**[Ruso diario](https://alfonso-wav.github.io/ruso-diario/)** — Leer ruso en 10 minutos al día:
+alfabeto, sesiones con ejercicios, teclado cirílico y repaso espaciado con FSRS.
 
----
+</td>
+<td width="50%" valign="top">
 
-## 🧬 About me
+[![Aprender a dibujar](assets/aprender-a-dibujar.png)](https://alfonso-wav.github.io/aprender-a-dibujar/)
 
-```go
-package main
+**[Aprender a dibujar](https://alfonso-wav.github.io/aprender-a-dibujar/)** — 29 lecciones para
+tablet con lápiz, de la primera línea a la cabeza con el método Loomis. Funciona sin conexión.
 
-import "fmt"
+</td>
+</tr>
+</table>
 
-type Datero struct {
-    Name      string
-    Location  string
-    Focus     []string
-    Interests []string
-    holaa     string
-}
+Y [Ganchillo desde cero](https://alfonso-wav.github.io/croche/): 16 lecciones de la cadeneta al
+amigurumi, con contador de filas y un tema pantano.
 
-func main() {
-    alfonso := Datero{
-        Name:     "Alfonso Massaguer",
-        Location: "Internet",
-        Focus: []string{
-            "Data Science",
-            "Machine Learning",
-            "Data Engineering",
-            "Web Scraping",
-            "Automation & Testing",
-        },
-        Interests: []string{
-            "Audio & Sound Processing",
-            "Videogames & Game Dev",
-            "Sustainability & Green Tech",
-        },
-        holaa: "Data is everywhere. Let's make it useful.",
-    }
-    fmt.Println(alfonso)
-}
-```
+## Más proyectos
 
----
+- **[Otis](https://github.com/Alfonso-wav/otis)** — Pokédex, constructor de equipos y simulador de
+  combates con cálculo de daño real. Go + TypeScript, escritorio y Android.
+- **[Audio visualizer](https://github.com/Alfonso-wav/audio_viz2)** — Visualizadores de audio a
+  partir de un enlace de YouTube, con vista previa en vivo y exportación a MP4. FastAPI, Celery, React, p5.js.
+- **[Web scraper + SQL dashboard](https://github.com/Alfonso-wav/web-scraper-sql-dashboard)** —
+  Scraping de Amazon y El Corte Inglés con Playwright, PostgreSQL y un dashboard con editor SQL.
+- **[Mental health Spain](https://github.com/linama2593/mental_health_spain)** — Riesgo de
+  depresión y ansiedad a partir de la Encuesta Nacional de Salud. En equipo.
 
-## 🛠️ Tech Stack
+## Con qué trabajo
 
-<div align="center">
+Python, SQL (SQLite, PostgreSQL), pandas, scikit-learn, Playwright, Go, TypeScript y JavaScript sin
+framework cuando basta. Me tiran el audio, los videojuegos y los datos medioambientales: si tienes
+un proyecto donde los datos se cruzan con alguno de esos mundos, escríbeme.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-## 📊 Featured Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| 🕸️ [**web-scraper-sql-dashboard**](https://github.com/Alfonso-wav/web-scraper-sql-dashboard) | Full pipeline: scraping → SQL storage → interactive dashboard | `HTML` `SQL` `Python` |
-| 🌳 [**Decision Tree Classifier**](https://github.com/4GeeksAcademy/alfonsoMG_Decision_Tree) | Decision Tree model for classification tasks | `Jupyter` `Scikit-Learn` |
-| 🔍 [**KNN Model**](https://github.com/4GeeksAcademy/alfonsoMG_KNN) | K-Nearest Neighbors implementation & analysis | `Jupyter` `Python` |
-| 🚀 [**Streamlit ML App**](https://github.com/4GeeksAcademy/alfonsoMG_streamlit) | Decision Tree model deployed as a web app with Streamlit | `Python` `Streamlit` |
-| 🧠 [**Mental Health Spain**](https://github.com/linama2593/mental_health_spain) | Predicting depression/anxiety risk using Spain's Health Survey | `Jupyter` `Pandas` |
-
----
-
-## 🎯 Interests & What I'm Looking For
-
-```
-🎧 AUDIO          → Sound processing, audio data, music tech
-🎮 VIDEOGAMES     → Game dev with Godot/GDScript, procedural generation
-🌱 SUSTAINABILITY → Green tech, environmental data, impact analysis
-📡 DATA           → Scraping, pipelines, ML models, dashboards — all of it
-```
-
-**I'm open to collaborations** on projects where data meets any of these worlds.  
-Let's talk. 
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![Alfonso's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Alfonso-wav&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Alfonso-wav&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Alfonso-wav&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 🤝 Reach Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alfonso-massaguer)
-[![X / Twitter](https://img.shields.io/badge/@alfonso__wav-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/alfonso_wav)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alfonso-wav)
-
-</div>
-
-<div align="center">
-
-<br>
-
-![Wave](https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif)
-
-*"Data is everywhere. Let's make it useful."* 🐊
-
-</div>
-
+[LinkedIn](https://www.linkedin.com/in/alfonso-massaguer) · [X @alfonso_wav](https://x.com/alfonso_wav) · 🐊
